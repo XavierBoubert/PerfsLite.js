@@ -63,11 +63,11 @@ When you're calling the result, PerfsLite gives you these details:
 *** TIMES ***
 
 > loop new color   (calls: 3, average: 0.4 sec, total: 1.2 sec)
-> color change     (calls: 1, average: 1.2 sec, total: 1.2 sec)
+> change a color   (calls: 1, average: 1.2 sec, total: 1.2 sec)
 
 *** STACK ***
 
-> color change     (start: 0.1 sec, time: 1.3 sec)
+> change a color   (start: 0.1 sec, time: 1.3 sec)
 > loop new color   (start: 0.1 sec, time: 0.3 sec)
 > loop new color   (start: 0.4 sec, time: 0.4 sec)
 > loop new color   (start: 0.8 sec, time: 0.5 sec)
